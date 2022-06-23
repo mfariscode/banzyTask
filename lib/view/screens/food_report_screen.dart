@@ -39,7 +39,7 @@ class _FoodReportState extends State<FoodReport> {
         });
 
         if (kDebugMode) {
-          print(foodReportModel?.reports[0].optIns?.breakfast);
+          print(foodReportModel?.reports[0].optIns.breakfast);
         }
 
 
@@ -61,7 +61,6 @@ class _FoodReportState extends State<FoodReport> {
         }
 
         //
-
 
       } else {
         if (kDebugMode) {
