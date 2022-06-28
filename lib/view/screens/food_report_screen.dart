@@ -214,19 +214,19 @@ class _FoodReportState extends State<FoodReport> {
                                           child: Text(foodReportModel!
                                               .reports[index]
                                               .optIns
-                                              .breakfast))),
+                                              .breakfast ??"--"))),
                                 ),
                                 Expanded(
                                   child: Container(
                                       child: Center(
                                           child: Text(foodReportModel!
-                                              .reports[index].optIns.lunch))),
+                                              .reports[index].optIns.lunch ??"--"))),
                                 ),
                                 Expanded(
                                   child: Container(
                                       child: Center(
                                           child: Text(foodReportModel!
-                                              .reports[index].optIns.dinner))),
+                                              .reports[index].optIns.dinner ??"--"))),
                                 ),
                               ],
                             ),

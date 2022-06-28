@@ -55,9 +55,9 @@ class OptIns {
     required this.dinner,
   });
 
-  String breakfast;
-  String lunch;
-  String dinner;
+  var breakfast;
+  var lunch;
+  var dinner;
 
   factory OptIns.fromJson(Map<String, dynamic> json) => OptIns(
     breakfast: json["breakfast"],
